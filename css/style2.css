@@ -1,0 +1,176 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 245, 230)
+}
+
+.contenedor {
+
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.resaltado {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    background-color: #24282b;
+    padding-top: 20px;
+    min-height: 70px;
+
+
+
+}
+
+/*border: 1px solid red;*/
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'calibri';
+
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header #marca {
+    float: left;
+    margin-top: 7px;
+    margin-left: 5%;
+
+}
+
+header nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 6px;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #000000;
+}
+
+header #marca h1 {
+    margin: 0;
+
+
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 2px;
+    color: #000000;
+    background-color: #F99E33;
+
+}
+
+footer li {
+    display: inline;
+    float: right;
+
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#sobre-nosotros {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#sobre-nosotros .contenedor2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#sobre-nosotros #titulo {
+    background-color: #ffeedd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#sobre-nosotros h2 {
+    margin: 0;
+    color: #333333;
+    font-size: 24px;
+}
+
+#sobre-nosotros p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Estilos CSS adicionales para la sección "Ubicación" y el mapa */
+#ubicacion {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#ubicacion .contenedor2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#ubicacion #titulo {
+    background-color: #ffeedd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#ubicacion h2 {
+    margin: 0;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+}
+
+#mapa {
+    position: relative;
+    width: 60%;
+    padding-bottom: 40%; /* Proporción del aspecto del mapa (2.5:1) */
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto; /* Centrar el mapa horizontalmente */
+}
+
+#mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
